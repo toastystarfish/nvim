@@ -7,6 +7,9 @@ return {
       ensure_installed = {
         "lua",
         "vim",
+        "vimdoc",
+        "luadoc",
+        "markdown",
         "json",
         "tsx"
       },
@@ -15,7 +18,7 @@ return {
         disable = { "help" }
       },
       indent = {
-        enable = true
+        enable = false
       },
       autotag = {
         enable = true
