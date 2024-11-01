@@ -25,7 +25,8 @@ return {
     lazy = false,
     config = function()
       require("catppuccin").setup({
-        flavour = "mocha"
+        flavour = "mocha",
+        transparent_background = true,
       })
       vim.cmd.colorscheme("catppuccin")
     end,
