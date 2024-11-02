@@ -5,6 +5,7 @@ return {
   config = function()
     require('lualine').setup({
       options = {
+        theme = 'ayu',
         refresh = {
           statusline = 1000,
           tabline = 1000,
