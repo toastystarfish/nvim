@@ -20,6 +20,6 @@ vim.opt.listchars = { tab = '|→', trail = ' ', space = '·' }
 vim.opt.fileformat = 'unix'
 vim.opt.fixeol = false
 
--- LSP 
+-- LSP
 vim.opt.signcolumn = 'yes'
 

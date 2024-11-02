@@ -1,5 +1,9 @@
 return {
   "williamboman/mason.nvim",
   lazy = false,
-  opts = {},
+  opts = {
+    ensure_installed = {
+      "codelldb",
+    },
+  },
 }

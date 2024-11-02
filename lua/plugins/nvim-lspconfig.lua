@@ -7,6 +7,11 @@ return {
     {"williamboman/mason.nvim"},
     {"williamboman/mason-lspconfig.nvim"},
   },
+  opts = {
+    servers = {
+      rust_analyzer = { enabled = false },
+    },
+  },
   init = function()
     vim.opt.signcolumn = 'yes'
   end,
@@ -42,7 +47,7 @@ return {
     })
 
     require('mason-lspconfig').setup({
-      ensure_installed = {},
+      ensure_installed = {"lua_ls", "ts_ls", "html", "cssls"},
       handlers = {
         -- this first function is the "default handler"
         -- it applies to every language server without a "custom handler"

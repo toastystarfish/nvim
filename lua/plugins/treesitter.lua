@@ -11,7 +11,9 @@ return {
         "luadoc",
         "markdown",
         "json",
-        "tsx"
+        "tsx",
+        "rust",
+        "ron"
       },
       highlight = {
         enable = true,
