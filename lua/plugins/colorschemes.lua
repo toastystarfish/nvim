@@ -45,7 +45,7 @@ return {
         terminal = true,
         overrides = {
           Normal = { bg = "None" },
-          ColorColumn = { bg = "None" },
+          -- ColorColumn = { bg = "None" },
           SignColumn = { bg = "None" },
           Folded = { bg = "None" },
           FoldColumn = { bg = "None" },

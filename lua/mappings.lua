@@ -1,5 +1,5 @@
 -- leader - to get to files
-vim.keymap.set("n", "-", vim.cmd.Ex)     
+vim.keymap.set("n", "-", vim.cmd.Ex)
 
 -- Do not include white space characters when using $ in visual mode,
 -- see https://vi.stackexchange.com/q/12607/15292
@@ -27,7 +27,7 @@ end, {
 })
 
 -- Always use very magic mode for searching
-vim.keymap.set("n", "/", [[/\v]])
+-- vim.keymap.set("n", "/", [[/\v]])
 
 -- Change current working directory locally and print cwd after that,
 -- see https://vim.fandom.com/wiki/Set_working_directory_to_the_current_file

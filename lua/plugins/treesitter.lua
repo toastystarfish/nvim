@@ -13,7 +13,8 @@ return {
         "json",
         "tsx",
         "rust",
-        "ron"
+        "ron",
+        "ruby"
       },
       highlight = {
         enable = true,
